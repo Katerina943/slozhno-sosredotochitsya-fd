@@ -9,4 +9,43 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --main-font: "IBM Plex mono";
+  --bg-color: #fff1f7;
+  --bg-image: url("../images/cover-image-light.png");
+  --text-color: #353430;
+  --title-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --main-font-size: 18px;
+  --text-point-color: #353430;
+  --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-title-decktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+}
+
+.page.theme_light .header__decor {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    --main-font: "IBM Plex mono";
+    --bg-color: #fff1f7;
+    --bg-image: url("../images/cover-image-light.png");
+    --text-color: #353430;
+    --title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --main-font-size: 18px;
+    --text-point-color: #353430;
+    --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --font-size-title-decktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    background-color: var(--bg-color);
+    background-image: var(--bg-image);
+  }
+
+  .page {
+    background-image: url("../images/cover-image-light.png");
+    background-color: #fff1f7;
+  }
 }
