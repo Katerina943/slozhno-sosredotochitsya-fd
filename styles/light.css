@@ -29,7 +29,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page {
+  :root {
     --main-font: "IBM Plex mono";
     --bg-color: #fff1f7;
     --bg-image: url("../images/cover-image-light.png");
@@ -45,7 +45,7 @@
   }
 
   .page {
-    background-image: url("../images/cover-image-light.png");
-    background-color: #fff1f7;
+    background-image: var(--bg-image);
+    background-color: var(--bg-color);
   }
 }
