@@ -20,12 +20,18 @@
   --text-point-color: #353430;
   --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-title-decktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  background-color: var(--bg-color);
-  background-image: var(--bg-image);
 }
 
-.page.theme_light .header__decor {
+.page.theme_light .header .header__decor {
   display: none;
+}
+
+.page.theme_auto .header .header__decor {
+  display: none;
+}
+
+button:hover {
+  outline: 1px solid rgba(53, 52, 48, 0.5);
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,12 +46,5 @@
     --text-point-color: #353430;
     --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --font-size-title-decktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    background-color: var(--bg-color);
-    background-image: var(--bg-image);
-  }
-
-  .page {
-    background-image: var(--bg-image);
-    background-color: var(--bg-color);
   }
 }
