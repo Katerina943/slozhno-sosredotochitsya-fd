@@ -20,18 +20,19 @@
   --text-point-color: #353430;
   --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size-title-decktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --decorated-color: #353430;
+  --button-text-color: #353430;
+  --title_without_marker-color: #353430;
+  --border-button-color: #353430;
+  --button-hover: rgba(53, 52, 48, 0.5);
 }
 
 .page.theme_light .header .header__decor {
   display: none;
 }
 
-.page.theme_auto .header .header__decor {
-  display: none;
-}
-
 button:hover {
-  outline: 1px solid rgba(53, 52, 48, 0.5);
+  outline: 1px solid var(--button-hover);
 }
 
 @media (prefers-color-scheme: light) {
@@ -46,5 +47,14 @@ button:hover {
     --text-point-color: #353430;
     --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --font-size-title-decktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --decorated-color: #353430;
+    --button-text-color: #353430;
+    --title_without_marker-color: #353430;
+    --border-button-color: #353430;
+    --button-hover: rgba(53, 52, 48, 0.5);
+  }
+
+  .header__decor {
+    display: none;
   }
 }
