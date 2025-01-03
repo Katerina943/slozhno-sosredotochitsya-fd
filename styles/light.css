@@ -25,10 +25,10 @@
   --title_without_marker-color: #353430;
   --border-button-color: #353430;
   --button-hover: rgba(53, 52, 48, 0.5);
-}
 
-.page.theme_light .header .header__decor {
-  display: none;
+  .header__decor {
+    display: none;
+  }
 }
 
 button:hover {

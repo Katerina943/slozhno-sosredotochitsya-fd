@@ -24,7 +24,7 @@
   --button-text-color: #ff0070;
   --title_without_marker-color: #ff0070;
   --border-button-color: #ff0070;
-  --button-hover: rgba(241, 178, 206, 0.5);
+  --button-hover: rgba(255, 0, 112, 0.6);
 
   button:hover {
     outline: 1px solid var(--button-hover);
@@ -51,7 +51,7 @@
     --button-text-color: #ff0070;
     --title_without_marker-color: #ff0070;
     --border-button-color: #ff0070;
-    --button-hover: rgba(241, 178, 206, 0.5);
+    --button-hover: rgba(255, 0, 112, 0.6);
   }
 
   .header__decor {
